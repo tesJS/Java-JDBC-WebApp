@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="webAppExercises.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Update Student</h1>
+<br>
+<form method="post" name="formStudent" action="/WebAppExercises/addStudent" target="_self">
+  <label for="id">Id :</label><br>
+  <input type="text" id="id" name="id" value=""><br>
+  
+  <label for="firstname">First name:</label><br>
+  <input type="text" id="firstname" name="firstname" value=""><br>
+  
+  <label for="lastname">Last name:</label><br>
+  <input type="text" id="lastname" name="lastname" value=""><br>
+  
+  <label for="streetaddress">Street address:</label><br>
+  <input type="text" id="streetaddress" name="streetaddress" value=""><br>
+  
+  <label for="postcode">Post code:</label><br>
+  <input type="text" id="postcode" name="postcode" value=""><br><br>
+  
+  <label for="postoffice">Post office:</label><br>
+  <input type="text" id="postoffice" name="postoffice" value=""><br><br>
+  
+  
+  <input id="update" type="button" value="Submit"><input id="cancel" type="button" value="Cancel">
+</form> 
+<br>
+<a class="main-page" href="/WebAppExercises/studentList.html">Back to Main Page</a>
+
+<script src="studentUpdate.js"></script>
+</body>
+</html>

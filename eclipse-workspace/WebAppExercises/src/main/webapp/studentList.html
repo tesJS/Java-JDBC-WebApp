@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Main Page</title>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,600&display=swap" rel="stylesheet">
+<link href="webAppExercises.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+<h2>List of Students</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>First Name</th>
+      <th>Last Name</th>      
+      <th>Street Address</th>
+      <th>Postcode</th>
+      <th>Postoffice</th>
+      <th class="student-links" onclick="addStudent();">Edit</th>
+    </tr>
+  </thead>
+  
+  <tbody id="tbody">
+    
+  </tbody>  
+</table>
+<a class="add-link" onclick="addStudent();" href="#">Add student</a>
+
+
+<script src="studentList.js"></script>
+</body>
+</html>
